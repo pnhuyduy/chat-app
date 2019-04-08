@@ -1,4 +1,4 @@
-const MongoDB_URI = "mongodb://localhost:27017/ChatApp" || process.env.MONGODB_URI
+const MongoDB_URI = process.env.MONGODB_URI || "mongodb://localhost:27017/ChatApp"
 
 module.exports = {
   MongoDB_URI
